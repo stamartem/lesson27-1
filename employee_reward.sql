@@ -17,16 +17,16 @@ CREATE TABLE lesson27.reward (
 );
 
 /* Insérer des lignes dans la table Employee */
-INSERT INTO praktika_2.Employee (Employee_id, First_name, Last_name, Salary, Joining_date, Departement) VALUES (1, 'Bob', 'Kinto', 1000000, "2019-01-20", "Finance");
-INSERT INTO praktika_2.Employee (Employee_id, First_name, Last_name, Salary, Joining_date, Departement) VALUES (2, 'Jerry', 'Kansxo', 6000000, "2019-01-15", "IT");
-INSERT INTO praktika_2.Employee (Employee_id, First_name, Last_name, Salary, Joining_date, Departement) VALUES (3, 'Philip', 'Jose', 8900000, "2019-02-05", "Banking");
-INSERT INTO praktika_2.Employee (Employee_id, First_name, Last_name, Salary, Joining_date, Departement) VALUES (4, 'John', 'Abraham', 2000000, "2019-02-25", "Insurance");
-INSERT INTO praktika_2.Employee (Employee_id, First_name, Last_name, Salary, Joining_date, Departement) VALUES (5, 'Michael', 'Mathew', 2200000, "2019-02-28", "Finance");
-INSERT INTO praktika_2.Employee (Employee_id, First_name, Last_name, Salary, Joining_date, Departement) VALUES (6, 'Alex', 'chreketo', 4000000, "2019-05-10", "IT");
-INSERT INTO praktika_2.Employee (Employee_id, First_name, Last_name, Salary, Joining_date, Departement) VALUES (7, 'Yohan', 'Soso', 1230000, "2019-06-20", "Banking");
+INSERT INTO Lesson27.Employee (Employee_id, First_name, Last_name, Salary, Joining_date, Departement) VALUES (1, 'Bob', 'Kinto', 1000000, "2019-01-20", "Finance");
+INSERT INTO Lesson27.Employee (Employee_id, First_name, Last_name, Salary, Joining_date, Departement) VALUES (2, 'Jerry', 'Kansxo', 6000000, "2019-01-15", "IT");
+INSERT INTO Lesson27.Employee (Employee_id, First_name, Last_name, Salary, Joining_date, Departement) VALUES (3, 'Philip', 'Jose', 8900000, "2019-02-05", "Banking");
+INSERT INTO Lesson27.Employee (Employee_id, First_name, Last_name, Salary, Joining_date, Departement) VALUES (4, 'John', 'Abraham', 2000000, "2019-02-25", "Insurance");
+INSERT INTO Lesson27.Employee (Employee_id, First_name, Last_name, Salary, Joining_date, Departement) VALUES (5, 'Michael', 'Mathew', 2200000, "2019-02-28", "Finance");
+INSERT INTO Lesson27.Employee (Employee_id, First_name, Last_name, Salary, Joining_date, Departement) VALUES (6, 'Alex', 'chreketo', 4000000, "2019-05-10", "IT");
+INSERT INTO Lesson27.Employee (Employee_id, First_name, Last_name, Salary, Joining_date, Departement) VALUES (7, 'Yohan', 'Soso', 1230000, "2019-06-20", "Banking");
 
 /* Insérer des lignes dans la table reward */
-INSERT INTO praktika_2.reward (Employee_ref_id, date_reward, amount) VALUES (1, '2019-05-11', '1000');
-INSERT INTO praktika_2.reward (Employee_ref_id, date_reward, amount) VALUES (2, '2019-02-15', '5000');
-INSERT INTO praktika_2.reward (Employee_ref_id, date_reward, amount) VALUES (3, '2019-04-22', '2000');
-INSERT INTO praktika_2.reward (Employee_ref_id, date_reward, amount) VALUES (4, '2019-06-20', '8000');
+INSERT INTO Lesson27.reward (Employee_ref_id, date_reward, amount) VALUES (1, '2019-05-11', '1000');
+INSERT INTO Lesson27.reward (Employee_ref_id, date_reward, amount) VALUES (2, '2019-02-15', '5000');
+INSERT INTO Lesson27.reward (Employee_ref_id, date_reward, amount) VALUES (3, '2019-04-22', '2000');
+INSERT INTO Lesson27.reward (Employee_ref_id, date_reward, amount) VALUES (4, '2019-06-20', '8000');
